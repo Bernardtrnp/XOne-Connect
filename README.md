@@ -7,7 +7,7 @@ This is the official WhatsApp bot developed by the **Student Council of SMPK Fra
 ## Features 🌟
 
 - **Menfess (Confess) Feature**:  
-  Share your thoughts, feelings, or secrets anonymously. Simply send a message, and Xone Connect will forward it without revealing your identity! 🤫💬
+  Share your thoughts, feelings, or secrets anonymously. Simply send a message, and XOne Connect will forward it without revealing your identity! 🤫💬
 
 - **Privacy First**:  
   Your messages are forwarded securely and confidentially, ensuring your privacy is maintained. 🛡️🔒
