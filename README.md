@@ -1,104 +1,58 @@
-# XOne Connect - WhatsApp Bot
+</p>
+<p align="center">
+<a href="#"><img title="HITOMI BOT" src="https://img.shields.io/badge/HITOMI BOT BY CHRISTIAN ID-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 
-Welcome to **XOne Connect**! 🚀  
-This is the official WhatsApp bot developed by the **OSIS SMPK Xaverius 1 Palembang** **Information Technology Division**. Xone Connect was created to enhance communication and provide an anonymous platform for students to interact freely.
-
-
-## Features 🌟
-
-- **Menfess (Confess) Feature**:  
-  Share your thoughts, feelings, or secrets anonymously. Simply send a message, and Xone Connect will forward it without revealing your identity! 🤫💬
-
-- **Privacy First**:  
-  Your messages are forwarded securely and confidentially, ensuring your privacy is maintained. 🛡️🔒
-
-- **Built with JavaScript**:  
-  Powered by JavaScript, Xone Connect ensures a smooth, efficient, and responsive experience.
+</div>
 
 
-## Installation 🛠️
+---
 
-To get **XOne Connect** up and running on your local machine, follow these simple steps:
+## Bugs and Tester
+* Jika kamu menemukan bug jangan lupa buka Issues
+* Info Lebih Lanjut, Chat [owner-hitomi](https://wa.me/6285921165857)
 
-### Prerequisites 📋
+# Requirements
+* [Node.js](https://nodejs.org/en/)
+* [Git](https://git-scm.com/downloads)
+* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip) (for sticker command)
 
-Before you begin, make sure you have the following installed:
+# Instalasi
+## Heroku Buildpack
+```bash
+heroku/nodejs
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+```
+## For Termux
+```ts
+termux-setup-storage
+apt update && apt upgrade
+pkg install nodejs git ffmpeg libwebp imagemagick
+git clone https://github.com/TianBot1/Hitomi-StoreV2
+cd Hitomi-StoreV2
+pkg install yarn
+yarn
+npm start
+```
 
-- **Node.js** (v12 or higher)
-- **npm** (Node package manager)
+## ```HOW TO DEPLOY```
 
-### Steps:
+[`Click Here For Tutorial`](https://youtu.be/_CP2_1Yqauo)<br>
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/xone-connect.git
-   cd xone-connect
-   ```
+----------
 
-2. **Install dependencies**:
-   Install all necessary dependencies using npm:
-   ```bash
-   npm install
-   ```
+<p align="center">
+  <a href="https://youtu.be/_CP2_1Yqauo"><img src="https://telegra.ph/file/042309a3aee80be40c474.jpg" />
+</p>
 
-3. **Set up the WhatsApp Business API**:
-   - You’ll need access to the WhatsApp Business API.
-   - Follow the official [WhatsApp Business API documentation](https://developers.facebook.com/docs/whatsapp) to set up your WhatsApp number and obtain the API credentials.
+## Donate
+- [Dana](https://i.ibb.co/f2h3MDQ/Qris.jpg)
+- [Gopay](https://i.ibb.co/f2h3MDQ/Qris.jpg)
+- [Ovo](https://i.ibb.co/f2h3MDQ/Qris.jpg)
 
-4. **Configure the `config.json` file**:
-   Create a file named `config.json` in the root directory and add the following content:
+# Youtube
+- https://youtube.com/c/ChristianID99
 
-   ```json
-   {
-     "ownerNumber": "628xxxx@s.whatsapp.net",
-     "botName": "XoneConnect",
-     "ownerName": "OSIS SMPK Xaverius 1 Palembang",
-     "sessionName": "session",
-     "footer": "© Xone Connect 2024",
-     "api_lolkey": "SadTeams",
-     "group": {
-       "judul": "Forum Bot WhatsApp",
-       "link": "[Group Link]"
-     }
-   }
-   ```
-
-   Replace `"628xxxx@s.whatsapp.net"` with the actual owner number and update other details accordingly.
-
-5. **Run the bot**:
-   Once everything is set up, run the bot with the following command:
-   ```bash
-   npm start
-   ```
-
-6. **Start chatting**:
-   - Add **Xone Connect** to your WhatsApp.
-   - Start sending messages and use the **Menfess** feature.
-
-
-## Features Explained 🧑‍💻
-
-1. **Start Chatting**:  
-   Add **Xone Connect** to your WhatsApp and start sending messages.
-   
-2. **Send a Confession**:  
-   Type your message and let the bot forward it anonymously to your chosen recipients or group.
-
-3. **Enjoy the Privacy**:  
-   Share without fear, knowing your identity is kept private.
-
-
-## Contribution 🤝
-
-We welcome contributions to **Xone Connect**! If you want to help improve the bot, feel free to fork the project, submit pull requests, or open issues. Let’s build something amazing together! 🌍✨
-
-
-## License 📜
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-
-## Contact 📬
-
-For any questions, issues, or feedback, reach out to us through our official channels.  
-Let’s keep XOne Connect a safe, fun, and innovative space for everyone! 😄
+# Thanks to
+- rtwone / Irfan
+- Christian ID

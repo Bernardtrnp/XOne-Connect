@@ -1,0 +1,19 @@
+{
+  "ownerNumber": ["6287819717279@s.whatsapp.net"],
+  "ownerName": ["Bernard Thimotius"],
+  "botName": "X-O BOT",
+  "buttonName": "Github",
+  "buttonLink": "https://github.com/Bernardtrnp",
+  "buttonName2": "Instagram",
+  "buttonLink2": "https://instagram.com/bernardtrnp",
+  "footer": "© Bernard Thimotius 2022",
+  "randommenu": ["https://i.ibb.co/SJDV3gQ/61d82860538d.jpg","https://i.ibb.co/NNtmgDF/4b3207ff4d37.jpg"],
+  "sessionName": "session",
+  "pathimg": "./media/xobot.png",
+  "gamewaktu": 60,
+  "limitCount": 10,
+  "gcount": {
+	"prem": 99999,
+	"user": 15
+  }
+}
